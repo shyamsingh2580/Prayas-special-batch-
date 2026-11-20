@@ -1,25 +1,18 @@
 {
-  "name": "prayas-app",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "@supabase/supabase-js": "^2.119.2",
-    "next": "16.4.6",
-    "react": "19.3.0",
-    "react-dom": "19.3.0"
-  },
-  "devDependencies": {
-    "@tailwindcss/turbopack": "4.3.3",
-    "autoprefixer": "^10.6.2",
-    "eslint": "^9",
-    "eslint-config-next": "16.4.6",
-    "postcss": "^8.5.33",
-    "tailwindcss": "^4.3.3"
-  }
+    "name": "prayas-app",
+      "version": "0.1.0",
+        "private": true,
+          "scripts": {
+              "dev": "next dev",
+                  "build": "next build",
+                      "start": "next start",
+                          "lint": "next lint"
+                            },
+                              "dependencies": {
+                                  "@supabase/supabase-js": "^2.49.1",
+                                      "next": "16.4.6",
+                                          "react": "^19.0.0",
+                                              "react-dom": "^19.0.0"
+                                                }
+                                                }
 }
