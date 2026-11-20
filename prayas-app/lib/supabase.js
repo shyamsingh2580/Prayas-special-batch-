@@ -1,6 +1,7 @@
 import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl = 'https://ycyzjemjwdyugczttzwo.supabase.co'
-const supabaseKey = 'YAHAN_APNI_ANON_KEY_PASTE_KARO'
+// Direct keys (Vercel par bhi yeh chalenge)
+const supabaseUrl = 'https://krxikxaoameewvbhxfcn.supabase.co'
+const supabaseKey = 'sb_publishable_GzGrEAS-EPtKta1lQOaCoQ_KppBVUAv'
 
-export const supabase = createClient(supabaseUrl, supabaseKey)
+export const supabase = createClient(supabaseUrl, supabaseKey) 
